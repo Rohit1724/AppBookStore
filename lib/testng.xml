@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="5" name="UiAndAPITestCase">
+		<parameter name="environment" value="ui" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="Rohit@17245" />
+
+		<parameter name="password" value="Um9oaXRAMTcyNDU=" />
+		<parameter name="userID"
+			value="a50ec37d-338f-49a3-9b07-7b46b0d6b179" />
+		<parameter name="isbn" value="9781449325862" />
+		<classes>
+			<class name="com.book.testNG.UITestClass">
+				<methods>
+					<include name="AddBookToCollection"></include>
+					<include name="AddBookToCollectionAndDeleteBook"></include>
+				</methods>
+			</class>
+			<class name="com.book.testNG.APITestClass" />
+		</classes>
+	</test>
+</suite> 
