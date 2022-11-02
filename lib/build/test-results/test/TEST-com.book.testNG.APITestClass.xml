@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.book.testNG.APITestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-01T17:25:58" hostname="DESKTOP-F7CEMVS" time="19.788">
+  <properties/>
+  <testcase name="AddBookToCollectionUsingAPI" classname="com.book.testNG.APITestClass" time="19.788"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 26227
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+</testsuite>

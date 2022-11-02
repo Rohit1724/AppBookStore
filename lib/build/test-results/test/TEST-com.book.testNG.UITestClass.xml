@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.book.testNG.UITestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-01T17:26:11" hostname="DESKTOP-F7CEMVS" time="205.25">
+  <properties/>
+  <testcase name="AddBookToCollection[0](Rohit@17245, Um9oaXRAMTcyNDU=)" classname="com.book.testNG.UITestClass" time="102.924"/>
+  <testcase name="AddBookToCollectionAndDeleteBook[0](Rohit@17245, Um9oaXRAMTcyNDU=)" classname="com.book.testNG.UITestClass" time="98.815"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 40014
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+</testsuite>
